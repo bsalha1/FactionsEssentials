@@ -1,0 +1,21 @@
+name: FactionsEssentials
+main: org.GladiusPvP.factionsessentials.Main
+version: 1.0
+commands:
+   fereload:
+      description: Reloads FactionsEssentials config.
+      usage: /<command>
+   chargedcreeperegg:
+      description: Gives a stack of charged creeper eggs.
+      usage: /<command>
+      aliases: [cc, ccegg]
+   nightvision:
+      description: Toggles nightvision.
+      usage: /<command>
+      aliases: [nv] 
+   wild:
+      description: Teleports player to random location.
+      usage: /<command>
+   ftnt:
+      description: Bruh.
+      usage: /<command>
