@@ -19,7 +19,7 @@ import org.bukkit.inventory.ItemStack;
 public class CmdFtnt implements CommandExecutor
 {
 	// Class Declarations
-	private Main main; // Main
+	private Main main; // The plugin
 	private FileConfiguration configTnt; // tnt.yml
 	private String factionID; // ID of player's faction
 	private int tntBal;       // Amount of tnt owned by player's faction
