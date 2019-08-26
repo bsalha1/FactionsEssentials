@@ -9,6 +9,7 @@ import org.GladiusPvP.factionsessentials.config.ConfigMain;
 import org.GladiusPvP.factionsessentials.config.ConfigTnt;
 import org.GladiusPvP.factionsessentials.listener.ListenBlaze;
 import org.GladiusPvP.factionsessentials.listener.ListenChargedCreeper;
+import org.GladiusPvP.factionsessentials.listener.ListenShockwave;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -50,6 +51,7 @@ public class Main extends JavaPlugin
 		
 		pluginManager.registerEvents(new ListenBlaze(), this);
 		pluginManager.registerEvents(new ListenChargedCreeper(), this);
+		pluginManager.registerEvents(new ListenShockwave(), this);
 	}
 	
 	private void loadConfigs()
